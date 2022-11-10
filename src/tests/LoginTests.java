@@ -31,8 +31,8 @@ public class LoginTests {
 		System.out.println("Login is successful and user is navigated to home page");
 		System.out.println("Step 5: Closing the browser");
 		PredefinedActions.closeBrowser();
-		System.out.println("On Branch A for Aug batch");
-
+		System.out.println("On Branch A for Aug batch11");
+System.out.println("On branch A");
 		System.out.println("abdbd");
 	}
 
