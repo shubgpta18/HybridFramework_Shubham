@@ -32,7 +32,7 @@ public class LoginTests {
 		System.out.println("Step 5: Closing the browser");
 		PredefinedActions.closeBrowser();
 		System.out.println("On Branch A for Aug batch11");
-System.out.println("On branch A");
+System.out.println("On branch AA");
 		System.out.println("abdbd");
 	}
 
