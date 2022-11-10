@@ -23,7 +23,8 @@ public class LoginTests {
 		System.out.println("Step 3: User Login with valid credential");
 		login.login("Admin", "dP3RD1i@Lu");
 		
-		System.out.println("Step 4:User should navigate to home page-----------------------------------");
+
+		System.out.println("Step 4:User should navigate to home page+ Conflicts-------");
 		String expectedTitle= "Employee Management";
 		String ActualTitle= login.getTitle();
 		Assert.assertEquals(expectedTitle,ActualTitle,"Expected Title is "+expectedTitle+ "where as Actual Title is "+ ActualTitle);
@@ -31,6 +32,8 @@ public class LoginTests {
 		System.out.println("Step 5: Closing the browser");
 		PredefinedActions.closeBrowser();
 		System.out.println("On Branch A for Aug batch");
+
+		System.out.println("abdbd");
 	}
 
 
